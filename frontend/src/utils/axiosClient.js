@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export const axiosClient = axios.create({
-    baseURL:'http://localhost:3000/api/v1'
+    baseURL:'https://mern-stack-api-seven.vercel.app/api/v1'
 })
