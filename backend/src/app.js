@@ -3,7 +3,7 @@ const app = express()
 const cors = require('cors')
 
 app.use(cors({
-  origin: "https://vercel.com/ahsanraufs-projects/mern-stack/F3DsCQUpCqgUNytXoPLfZQVhrgNL",
+  origin: "https://mern-stack-beige-psi.vercel.app/",
   credentials: true
 }));
 app.use(express.json({}))
