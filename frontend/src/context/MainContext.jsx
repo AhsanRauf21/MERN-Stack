@@ -92,7 +92,7 @@ if(loading){
 
   return (
  
-<mainContext.Provider value={{user,logoutHandler,fetchProfile,tasks,fetchTasks}}>
+<mainContext.Provider className="relative" value={{user,logoutHandler,fetchProfile,tasks,fetchTasks}}>
   {children}
 </mainContext.Provider>
 
